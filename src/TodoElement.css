@@ -1,0 +1,19 @@
+.todo-element {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #2d96e2;
+  border-radius: 5px;
+  transition: 2s;
+  margin-bottom: 10px;
+}
+
+.todo-element:hover {
+  transition: 2s;
+  background-color: #2d96e2;
+  color: white;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
