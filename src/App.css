@@ -32,24 +32,7 @@
   margin: 50px;
 }
 
-#new-element-btn {
-  margin-top: 20px;
-  background-color: #282c34;
-  width: 100%;
-  border: 1px solid #282c34;
-  border-radius: 5px;
-  padding: 10px;
-  max-width: 500px;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  transition: 2s;
-}
 
-#new-element-btn:hover {
-  background-color: #0089b5;
-  transition: 2s;
-}
 
 @keyframes App-logo-spin {
   from {

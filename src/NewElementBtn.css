@@ -1,0 +1,42 @@
+.submit-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.new-element-btn {
+  margin-top: 20px;
+  background-color: #282c34;
+  width: 25%;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 250px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.new-element-btn:hover {
+  background-color: #0089b5;
+  transition: 2s;
+}
+
+.new-element-text {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #0089b5;
+  background-color: #282c34;
+  margin-right: 10px;
+  transition: 2s;
+  outline: #282c34;
+}
+
+

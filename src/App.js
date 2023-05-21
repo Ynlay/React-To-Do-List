@@ -1,16 +1,13 @@
 import "./App.css";
-import TodoElement from "./TodoElement";
+import List from "./List";
 
 function App() {
   return (
     <div className="App">
-      <h1>Todo List</h1>
       <header className="App-header">
         <div className="todo-list">
-          <h2>Todo Elements</h2>
-          <TodoElement elementContent="Todo Element"/>
-          <TodoElement elementContent="Other element"/>
-          <button id="new-element-btn">Add Another Task</button>
+          <h2>Todo List</h2>
+          <List />
         </div>
       </header>
     </div>
